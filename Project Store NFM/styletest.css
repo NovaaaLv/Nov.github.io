@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins";
+  color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Tinggi 100% dari viewport height */
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/689/278/401/gamers-minimalism-pc-gaming-just-play-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrap {
+  display: flex;
+  border: 1px solid black;
+  width: 900px;
+  height: 350px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-section {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-section {
+  border: 1px solid black;
+}
+
+.aside {
+  width: 350px;
+  height: 350px;
+  background-color: #6c757d;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 350px;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp-text {
+  font-size: 25px;
+  color: black;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  border-right-color: black;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder {
+  font-size: 14px;
+}
+
+.inp-field {
+  background-color: transparent;
+  border: 1px solid black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  width: 350px;
+  height: 20px;
+  font-size: 14px;
+}
+
+.inp-img {
+  display: none;
+}
+
+.img-login {
+  align-items: center;
+  cursor: pointer;
+}
+
+.text-end {
+  text-align: end;
+  display: flex;
+  justify-content: end;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.btn-submit {
+  background-color: #6c757d;
+  color: #f8f9fa;
+  border: 1.5px solid black;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
